@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApiServcie/ApiServcie.iml" filepath="$PROJECT_DIR$/ApiServcie/ApiServcie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonBase/CommonBase.iml" filepath="$PROJECT_DIR$/CommonBase/CommonBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeedSoil.iml" filepath="$PROJECT_DIR$/SeedSoil.iml" />
+    </modules>
+  </component>
+</project>
