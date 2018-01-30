@@ -13,6 +13,11 @@
 
     <!-- 添加依赖 -->
     <dependencies>
+        <dependency>
+            <groupId>play.soil.seed</groupId>
+            <artifactId>common-base</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- 时间操作组件 -->
         <dependency>
             <groupId>joda-time</groupId>
@@ -127,7 +132,7 @@
     <!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
     <build>
         <finalName>ROOT</finalName>
-        <resources>
+        <!--<resources>
             <resource>
                 <directory>src/main</directory>
                 <includes>
@@ -136,7 +141,7 @@
                 </includes>
                 <filtering>false</filtering>
             </resource>
-        </resources>
+        </resources>-->
     </build>
 
 </project>

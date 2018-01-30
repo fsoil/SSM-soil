@@ -16,6 +16,7 @@ public class UserResource {
     @RequestMapping("/user")
     @ResponseBody
     public User getUser() {
-        return new User("hammer", 18);
+        User user = new User("hammer", 18);
+        return user;
     }
 }
